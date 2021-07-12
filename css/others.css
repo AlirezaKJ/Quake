@@ -1,0 +1,41 @@
+/* This Css File Is For Other Pages Not For The Main Coding Page */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: cursive;
+  background-color: gainsboro;
+}
+.first_text {
+  margin: 10% 0 0px 0;
+}
+.title {
+  font-size: 50px;
+}
+#html {
+  margin: 0 5px;
+  font-size: 25px;
+  color: #dd4b25;
+}
+#css {
+  
+  margin: 0 5px;
+  font-size: 25px;
+  color: #0070ba;
+}
+#js {
+  margin: 0 5px;
+  font-size: 25px;
+  color: #63a814;
+}
+.back {
+  padding: 16px 20px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.back:hover {
+  text-decoration: underline;
+}
