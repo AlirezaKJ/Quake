@@ -1,12 +1,14 @@
 # Quake
 ## A Live Code Editor For HTML, CSS, JS
 
-### Requirments
-#### Node.js
-Download Link:
-https://nodejs.org/en/download/
+<<<<<<< HEAD
 ### Installation
-Run install.bat And Wait Until The Required Packages Install
+
+Go To Assets Page
+
+Download One Of The Version You Want (Executable Assets Are Easy To Use)
+
+Unzip And Run Quake.exe
 ### Usage
 Run run.bat To Use
 
@@ -18,8 +20,17 @@ This mode is the only mode which HTML, CSS and JavaScript are in different text 
 #### Normal Mode
 This mode have all Quake features
 #### minimal Mode
-This mode is very similar to normal mode but dont have the gutter 
+This mode is very similar to normal mode but dont have the gutter
 ### Syntax Highlighting
 We added syntax highlighting finally and now most of modes support monokai syntax
 ### Gutter
 A gutter is now in the left area of the screen in normal mode which show the line numbers
+=======
+## Installation
+
+Go To Assets Page
+
+Download One Of The Version You Want (Executable Assets Are Easy To Use)
+
+Unzip And Run Quake.exe
+>>>>>>> 31187999a204ad6131a85cda22d4dec7e213a22d
