@@ -1,7 +1,6 @@
 # Quake
 ## A Live Code Editor For HTML, CSS, JS
 
-<<<<<<< HEAD
 ### Installation
 
 Go To Assets Page
