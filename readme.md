@@ -16,7 +16,7 @@ We Removed All The V1.0 Modes And Added 3 Modes
 This mode is the only mode which HTML, CSS and JavaScript are in different text area
 #### Normal Mode
 This mode have all Quake features
-#### minimal Mode
+#### Minimal Mode
 This mode is very similar to normal mode but dont have the gutter
 ### Syntax Highlighting
 We added syntax highlighting finally and now most of modes support monokai syntax
