@@ -10,6 +10,8 @@ Download One Of The Version You Want (Executable Assets Are Easy To Use)
 Unzip And Run Quake.exe
 
 ## Update V1.2
+### Smoother Cursor
+Now the cursor is very more smoooth than the last time and better phase animation
 ### Line Wrapping
 In normal modes when a line come to an end wrap to the next line
 ### Auto Completion And Snippet
