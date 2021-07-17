@@ -1,4 +1,4 @@
-function update()
+function onTypeInEditor()
 {
 	var idoc = document.getElementById('iframe').contentWindow.document;
 
@@ -25,22 +25,29 @@ function setupEditor()
 </html>`,1); //1 = moves cursor to end
 
   editor.getSession().on('change', function() {
-    update();
+    onTypeInEditor();
   });
 
-  editor.focus();
-
-
+  // Set Options
   editor.setOptions({
+    enableSnippets: true,
+    fixedWidthGutter: true,
+    highlightGutterLine: true,
+    animatedScroll: true,
+    cursorStyle: "smooth",
+    wrap: true,
+    autoScrollEditorIntoView: true,
+    highlightSelectedWord: true,
+    highlightActiveLine: true,
     fontSize: "16pt",
     showLineNumbers: true,
     showGutter: true,
     vScrollBarAlwaysVisible:true,
-    enableBasicAutocompletion: true, enableLiveAutocompletion: true
+    enableBasicAutocompletion: true,
+    enableLiveAutocompletion: true
   });
 
   editor.setShowPrintMargin(false);
-  editor.setBehavioursEnabled(false);
 }
 
 setupEditor();

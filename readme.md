@@ -9,6 +9,11 @@ Download One Of The Version You Want (Executable Assets Are Easy To Use)
 
 Unzip And Run Quake.exe
 
+## Update V1.2
+### Line Wrapping
+In normal modes when a line come to an end wrap to the next line
+### Auto Completion And Snippet
+From now in normal mode you can see a pop up which show you code snippets and autocompletion
 ## Update V1.1
 ### New Modes
 We Removed All The V1.0 Modes And Added 3 Modes
