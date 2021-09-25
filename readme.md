@@ -9,6 +9,19 @@ Download One Of The Version You Want (Executable Assets Are Easy To Use)
 
 Unzip And Run Quake.exe
 
+## Update V1.3
+### Top Bar
+Added a menu at the top of the screen in normal mode 
+### Theme Picker
+When you press the theme button in the top bar a menu will appear and you can choose your desired theme
+### Text Wrapping Toggler
+You can on and off the text wrapping option from the top bar
+### Cursor Style
+Added 4 cursor style (Ace/Slim/Smooth/Wide) to normal mode which are accesible from the top bar 
+### Font-Size
+Now you can choose your desired font size from the top bar
+### Snippet Toggler
+The auto complete and the pop up snippets can now get turned off via the top bar
 ## Update V1.2
 ### Smoother Cursor
 Now the cursor is very more smoooth than the last time and better phase animation
