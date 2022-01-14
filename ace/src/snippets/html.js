@@ -856,10 +856,10 @@ snippet video\n\
 	<video src=\"${1} height=\"${2}\" width=\"${3}\" preload=\"${5:none}\" autoplay=\"${6:autoplay}>${7}</video>${8}\n\
 snippet wbr\n\
 	<wbr />${1}\n\
-snippet salam\n\
-	<html>${1}\n\
-	\n\
-	</html>\n\
+// snippet salam\n\
+// 	<html>${1}\n\
+// 	\n\
+// 	</html>\n\
 ";
 exports.scope = "html";
 
