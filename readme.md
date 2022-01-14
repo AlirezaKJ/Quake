@@ -9,6 +9,14 @@ Download One Of The Version You Want (Executable Assets Are Easy To Use)
 
 Unzip And Run Quake.exe
 
+## Update V1.4
+### New Mode 
+Live JS is our new mode for java script developers
+
+In Live JS you can see your code preview as you type and it instantly run
+
+### Tips
+For Some Reasons We Removed Home Page Tips And Tricks
 ## Update V1.3
 ### Top Bar
 Added a menu at the top of the screen in normal mode 

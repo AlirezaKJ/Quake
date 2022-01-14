@@ -7,8 +7,6 @@ function update()
 	idoc.close();
 }
 
-
-
 function setupEditor()
 {
   window.editor = ace.edit("editor");
@@ -27,10 +25,7 @@ function setupEditor()
   editor.getSession().on('change', function() {
     update();
   });
-
   editor.focus();
-
-
   editor.setOptions({
     fontSize: "16pt",
     showLineNumbers: false,
@@ -38,7 +33,6 @@ function setupEditor()
     vScrollBarAlwaysVisible:false,
     enableBasicAutocompletion: true, enableLiveAutocompletion: true
   });
-
   editor.setShowPrintMargin(false);
   editor.setBehavioursEnabled(false);
 }
