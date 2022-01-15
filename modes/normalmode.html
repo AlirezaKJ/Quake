@@ -9,57 +9,57 @@
 </head>
 <body onload="ready()">
 
-<div id="mySidenav" class="sidenav">
-	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-	<span><a class="helpbar__button" onclick="themetomonokai()" href="#">Monokai</a></span>
-		<span><a class="helpbar__button" onclick="themetotwilight()" href="#">Twilight</a></span>
-		<span><a class="helpbar__button" onclick="themetocobalt()" href="#">Cobalt</a></span>
-		<span><a class="helpbar__button" onclick="themetodracula()" href="#">Dracula</a></span>
-		<span><a class="helpbar__button" onclick="themetogithub()" href="#">Github</a></span>
-		<span><a class="helpbar__button" onclick="themetosolarized_dark()" href="#">Sol-Dark</a></span>
-		<span><a class="helpbar__button" onclick="themetosolarized_light()" href="#">Sol-Light</a></span>
-		<span><a class="helpbar__button" onclick="themetochaos()" href="#">Chaos</a></span>
-		<span><a class="helpbar__button" onclick="themetochrome()" href="#">Chrome</a></span>
-		<span><a class="helpbar__button" onclick="themetoclouds_mn()" href="#">Clouds-Midnight</a></span>
-		<span><a class="helpbar__button" onclick="themetotomorrow()" href="#">Tomorrow</a></span>
-		<span><a class="helpbar__button" onclick="themetotomorrow_n()" href="#">Tommorow-Night</a></span>
-</div>	  
-<div id="mySidenav2" class="sidenav">
-	<a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
-	<span><a class="helpbar__button" onclick="wrappingOn()" href="#">On</a></span>
-	<span><a class="helpbar__button" onclick="wrappingOff()" href="#">Off</a></span>
-</div>	  
-<div id="mySidenav3" class="sidenav">
-	<a href="javascript:void(0)" class="closebtn" onclick="closeNav3()">&times;</a>
-	<span><a class="helpbar__button" onclick="cursortoace()" href="#">Ace</a></span>
-	<span><a class="helpbar__button" onclick="cursortoslim()" href="#">Slim</a></span>
-	<span><a class="helpbar__button" onclick="cursortosmooth()" href="#">Smooth</a></span>
-	<span><a class="helpbar__button" onclick="cursortowide()" href="#">Solid</a></span>
-</div>	  
-<div id="mySidenav4" class="sidenav">
-	<a href="javascript:void(0)" class="closebtn" onclick="closeNav4()">&times;</a>
-	<span><a class="helpbar__button" onclick="fontsizeto10()" href="#">10pt</a></span>
-	<span><a class="helpbar__button" onclick="fontsizeto12()" href="#">12pt</a></span>
-	<span><a class="helpbar__button" onclick="fontsizeto14()" href="#">14pt</a></span>
-	<span><a class="helpbar__button" onclick="fontsizeto16()" href="#">16pt</a></span>
-	<span><a class="helpbar__button" onclick="fontsizeto18()" href="#">18pt</a></span>
-	<span><a class="helpbar__button" onclick="fontsizeto20()" href="#">20pt</a></span>
-	<span><a class="helpbar__button" onclick="fontsizeto22()" href="#">22pt</a></span>
-	<span><a class="helpbar__button" onclick="fontsizeto24()" href="#">24pt</a></span>
-</div>	  
-<div id="mySidenav5" class="sidenav">
-	<a href="javascript:void(0)" class="closebtn" onclick="closeNav5()">&times;</a>
-	<span><a class="helpbar__button" onclick="snippetson()" href="#">On</a></span>
-	<span><a class="helpbar__button" onclick="snippetsoff()" href="#">Off</a></span>
+<div id="mySideNav1" class="sidenav">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav(1)">&times;</a>
+	<span><a class="helpbar__button" onclick="setThemeTo('monokai')" href="#">Monokai</a></span>
+	<span><a class="helpbar__button" onclick="setThemeTo('twilight')" href="#">Twilight</a></span>
+	<span><a class="helpbar__button" onclick="setThemeTo('cobalt')" href="#">Cobalt</a></span>
+	<span><a class="helpbar__button" onclick="setThemeTo('dracula')" href="#">Dracula</a></span>
+	<span><a class="helpbar__button" onclick="setThemeTo('github')" href="#">Github</a></span>
+	<span><a class="helpbar__button" onclick="setThemeTo('solarized_dark')" href="#">Sol-Dark</a></span>
+	<span><a class="helpbar__button" onclick="setThemeTo('solarized_light')" href="#">Sol-Light</a></span>
+	<span><a class="helpbar__button" onclick="setThemeTo('chaos')" href="#">Chaos</a></span>
+	<span><a class="helpbar__button" onclick="setThemeTo('chrome')" href="#">Chrome</a></span>
+	<span><a class="helpbar__button" onclick="setThemeTo('clouds_midnight')" href="#">Clouds-Midnight</a></span>
+	<span><a class="helpbar__button" onclick="setThemeTo('tomorrow')" href="#">Tomorrow</a></span>
+	<span><a class="helpbar__button" onclick="setThemeTo('tomorrow_night')" href="#">Tommorow-Night</a></span>
+</div> 
+<div id="mySideNav2" class="sidenav">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav(2)">&times;</a>
+	<span><a class="helpbar__button" onclick="wrapping(true)" href="#">On</a></span>
+	<span><a class="helpbar__button" onclick="wrapping(false)" href="#">Off</a></span>
+</div>
+<div id="mySideNav3" class="sidenav">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav(3)">&times;</a>
+	<span><a class="helpbar__button" onclick="cursorTo('ace')" href="#">Ace</a></span>
+	<span><a class="helpbar__button" onclick="cursorTo('slim')" href="#">Slim</a></span>
+	<span><a class="helpbar__button" onclick="cursorTo('smooth')" href="#">Smooth</a></span>
+	<span><a class="helpbar__button" onclick="cursorTo('wide')" href="#">Solid</a></span>
+</div>
+<div id="mySideNav4" class="sidenav">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav(4)">&times;</a>
+	<span><a class="helpbar__button" onclick="fontSizeTo('10pt')" href="#">10pt</a></span>
+	<span><a class="helpbar__button" onclick="fontSizeTo('12pt')" href="#">12pt</a></span>
+	<span><a class="helpbar__button" onclick="fontSizeTo('14pt')" href="#">14pt</a></span>
+	<span><a class="helpbar__button" onclick="fontSizeTo('16pt')" href="#">16pt</a></span>
+	<span><a class="helpbar__button" onclick="fontSizeTo('18pt')" href="#">18pt</a></span>
+	<span><a class="helpbar__button" onclick="fontSizeTo('20pt')" href="#">20pt</a></span>
+	<span><a class="helpbar__button" onclick="fontSizeTo('22pt')" href="#">22pt</a></span>
+	<span><a class="helpbar__button" onclick="fontSizeTo('24pt')" href="#">24pt</a></span>
+</div>
+<div id="mySideNav5" class="sidenav">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav(5)">&times;</a>
+	<span><a class="helpbar__button" onclick="setSnippet(true)" href="#">On</a></span>
+	<span><a class="helpbar__button" onclick="setSnippet(false)" href="#">Off</a></span>
 </div>
 <div id="container">
 	<div class="helpbar">
 		<span><a class="helpbar__button" href="../index.html">Home</a></span>
-		<span><a class="helpbar__button" onclick="openNav()" href="#">Theme</a></span>
-		<span><a class="helpbar__button" onclick="openNav2()" href="#">Wrapping</a></span>
-		<span><a class="helpbar__button" onclick="openNav3()" href="#">Cursor</a></span>
-		<span><a class="helpbar__button" onclick="openNav4()" href="#">Font-Size</a></span>
-		<span><a class="helpbar__button" onclick="openNav5()" href="#">Snippets</a></span>
+		<span><a class="helpbar__button" onclick="openNav(1)" href="#">Theme</a></span>
+		<span><a class="helpbar__button" onclick="openNav(2)" href="#">Wrapping</a></span>
+		<span><a class="helpbar__button" onclick="openNav(3)" href="#">Cursor</a></span>
+		<span><a class="helpbar__button" onclick="openNav(4)" href="#">Font-Size</a></span>
+		<span><a class="helpbar__button" onclick="openNav(5)" href="#">Snippets</a></span>
 		<!-- <span><a class="helpbar__button" onclick="themetomonokai()" href="#">Monokai</a></span>
 		<span><a class="helpbar__button" onclick="themetotwilight()" href="#">Twilight</a></span>
 		<span><a class="helpbar__button" onclick="themetocobalt()" href="#">Cobalt</a></span>
