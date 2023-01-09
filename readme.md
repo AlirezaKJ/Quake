@@ -1,6 +1,6 @@
 # Quake
 ## A Live Code Editor For HTML, CSS, JS
-
+## Note: main version is now moved to branch v1 because of next version development
 ### Installation
 
 Go To Assets Page
